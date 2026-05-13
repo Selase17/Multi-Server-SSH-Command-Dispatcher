@@ -2,6 +2,8 @@
 
 A Bash tool that reads a list of servers from `servers.conf` and runs any shell command across all of them simultaneously via SSH. Each server's output is captured in isolation and printed as a clean colour-coded block. A final summary line reports how many servers succeeded, failed, or timed out.
 
+![Demo](demo.gif)
+
 ---
 
 ## How It Works
